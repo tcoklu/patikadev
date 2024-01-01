@@ -1,0 +1,49 @@
+S1) 22,27,16,2,18,6 -> Insertion Sort
+
+a)Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+C1-a) Insertion Sort Asamalari:
+
+22 < 27 ? bir sey yapma 22,27,16,2,18,6 
+27 < 16 ? yer degistir -> 22,16,27,2,18,6
+22 < 16 ? yer degistir -> 16,22,27,2,18,6
+27 < 2 ? yer degistir -> 16,22,2,27,18,6
+2 < 22  ? yer degistir -> 16,2,22,27,18,6
+2 < 16  ? yer degistir -> 2,16,22,27,18,6
+27 < 18 ? yer degistir -> 2,16,22,18,27,6
+18 < 22 ? yer degistir -> 2,16,18,22,27,6
+27 < 6 ? yer degistir -> 2,16,18,22,6,27
+6 < 22 ? yer degistir -> 2,16,18,6,22,27
+6 < 18 ? yer degistir -> 2,16,6,18,22,27
+6 < 16 ? yer degistir -> 2,6,16,18,22,27
+6 < 2 ? dur -> 2,6,16,18,22,27
+
+b) Big-O gösterimini yazınız.
+C1-b)
+Big O Gosterimi:
+avarage case : O(n^2) 
+worst case  : O(n^2) 
+best case : O(n) dizi sirali iken
+
+c)Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+C1-c)
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+
+d) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+C1-d)
+1. adim 
+2,3,5,8,7,9,4,15,6
+2.adim
+2,3,5,8,7,9,4,15,6
+3.adim
+2,3,4,8,7,9,5,15,6
+4.adim
+2,3,4,5,7,9,8,15,6
+
+
+
+
